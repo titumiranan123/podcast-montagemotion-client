@@ -37,3 +37,8 @@
 .regular {
   font-family: regulardin;
 }
+
+.optioncard:hover {
+  background: linear-gradient(180deg, #FFFFFF -7.81%, #25AAE1 146.35%);
+
+}

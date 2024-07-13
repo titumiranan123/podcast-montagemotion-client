@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                         <h1 className='bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] poppins font-bold text-[96px]  flex justify-center items-center leading-[96px] text-center md:w-[1153px] '>GET YOUR FIRST SHORTS VIDEO FREE</h1>
                         <p className='opensans mt-[34px] font-[600] text-[20px] text-[#D9D9D9] leading-[25.6px]'>There are numbers of video editing agencies out there but we stand out for a reason. </p>
                         <div className='flex gap-2 mt-[59px]'>
-                            <button className='py-4 px-6 border bg-[#FFFFFF] rounded-[16px] flex justify-center items-center opensans font-[700] text-[20px] text-[#03070D] shadow-lg'>Book a Call</button>
+                            <button className='py-4 px-6 border bg-[#FFFFFF] rounded-[16px] flex justify-center items-center opensans font-[700] text-[20px] text-[#03070D] shadow'>Book a Call</button>
                             <button className='py-4 px-6 border  rounded-[16px] flex justify-center items-center opensans font-[700] text-white text-[20px]'>See Our Works</button>
                         </div>
                     </div>

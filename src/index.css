@@ -56,3 +56,45 @@
 .bg {
   background: linear-gradient(180deg, #FFFFFF -7.81%, #25AAE1 146.35%);
 }
+
+.shadow {
+  box-shadow: 0px 4px 20px 0px #FFFFFF29;
+}
+
+/* swiper custom slider
+ */
+
+
+
+
+
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  color: #ffffff;
+  /* Color of the icon */
+  font-size: 20px;
+  /* Size of the icon */
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev-custom {
+  left: 440px;
+
+  rotate: 90deg;
+  /* Position the previous button */
+}
+
+.swiper-button-next-custom {
+  right: -85px;
+  /* Position the next button */
+  rotate: 90deg;
+}

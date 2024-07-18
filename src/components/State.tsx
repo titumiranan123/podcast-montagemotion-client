@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 const State = () => {
     return (
         <div className="bg mt-[68px]  rounded-[10px] md:h-[200px] md:mt-[80px] lg:mt-[90px] max-w-[1240px] mx-auto">
-            <div className="grid w-[1200px] grid-cols-1 md:grid-cols-3 gap-10 p-12">
+            <div className="grid lg:w-[1200px] grid-cols-1 md:grid-cols-3 gap-10 p-12">
                 <div className="flex justify-center flex-col items-center">
                     <p className="text-[42px] font-bold leading-[52px] text-[#03070D] bold tracking-[0.8px]">
                         <CountUp enableScrollSpy="true" start={1} duration={4} end={1000} />

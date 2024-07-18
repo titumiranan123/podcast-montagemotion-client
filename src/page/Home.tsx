@@ -14,8 +14,8 @@ const Home: React.FC = () => {
             <Header />
             <span className='max-w-[1440px] mx-auto h-[1px] bg-white mt-[135px]'></span>
             <Shortvideo />
-            {/*  <State />
-            <Bestoption />
+            <State />
+            {/* <Bestoption />
             <Successstroy />
             <Accordion />
             <Pricing />

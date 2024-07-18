@@ -67,6 +67,25 @@
 
 
 
+.swiper {
+  height: 680px !important;
+  width: 487px !important;
+}
+
+/* Default for larger screens */
+
+
+/* Adjust for tablets */
+
+
+/* Adjust for mobile devices */
+@media (max-width: 640px) {
+  .swiper {
+    height: 500px !important;
+    width: 281px !important;
+
+  }
+}
 
 .swiper-button-prev-custom,
 .swiper-button-next-custom {

@@ -10,15 +10,16 @@ import Shortvideo from '../components/Shortvideo';
 
 const Home: React.FC = () => {
     return (
-        <div className='flex flex-col gap-[120px] mt-[36px] '>
+        <div className='flex  flex-col lg:gap-[120px] mt-[36px]  gap-[0px]'>
             <Header />
+            <span className='max-w-[1440px] mx-auto h-[1px] bg-white mt-[135px]'></span>
             <Shortvideo />
-            <State />
+            {/*  <State />
             <Bestoption />
             <Successstroy />
             <Accordion />
             <Pricing />
-            <Footer />
+            <Footer /> */}
         </div>
     );
 };

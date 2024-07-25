@@ -4,21 +4,21 @@ import img from "./../assets/header1.png"
 import logo from "../assets/log.png"
 import ReactPlayer from "react-player";
 import Headerpulse from './Headerpuls';
+import shadow from "./../assets/shadow.png"
 const Header: React.FC = () => {
     const [isImageVisible, setIsImageVisible] = useState(true);
-
     const handleHideImage = (hide: any) => {
         setIsImageVisible(!hide);
     };
     return (
-        <div className='mx-auto lg:px-0 px-4 max-w-[1240px]'>
-            <div className='flex justify-between items-center gap-10'>
+        <div className='mx-auto lg:px-0 px-4  max-w-[1240px] relative'>
+            <div className='flex justify-between z-20 items-center mt-[36px] gap-10'>
                 <img className='md:w-[151px] md:scale-100  md:h-[60px] w-[120px]' src={logo} alt="" />
                 <div>
                     <button className='md:py-4 md:px-6 border md:w-[161px] w-[120px] text-[14px] md:h-[67px] h-[50px]  rounded-[16px] flex justify-center items-center opensans font-[400] text-white md:text-[20px]'>Book a Call</button>
                 </div>
             </div>
-            <div className=' mx-auto  max-w-[1240px] flex justify-center items-center flex-col'>
+            <div className=' mx-auto  max-w-[1240px] flex justify-center items-center flex-col z-20'>
 
                 <div className="relative mt-[120px] md:mt-[174px]">
                     <div className='flex justify-center flex-col items-center z-20'>
@@ -29,8 +29,8 @@ const Header: React.FC = () => {
                             <button className='py-4 px-6 border  rounded-[16px] flex justify-center items-center opensans font-[700] text-[12px] text-white md:text-[20px]'>See Our Works</button>
                         </div>
                     </div>
-                    <div className='bg-[#82C8E5] lg:w-[325px] md:w-[220px] h-[780px] -z-10 absolute -top-40 lg:left-[38%] md:left-[32%] filter blur-[95px] bg-opacity-75 '  >
-                    </div>
+                    {/* <div className='bg-[#82C8E5] lg:w-[325px] md:w-[220px] h-[780px] -z-10 absolute -top-40 lg:left-[38%] md:left-[32%] filter blur-[95px] bg-opacity-75 '  >
+                    </div> */}
 
 
                 </div>
@@ -64,6 +64,10 @@ const Header: React.FC = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <img className='absolute top-0 lg:left-0 -left-1 -z-10' src={shadow} alt="" />
+            <div className='line'>
+
             </div>
         </div>
     );

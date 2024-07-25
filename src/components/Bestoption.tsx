@@ -4,7 +4,7 @@ import quality from "../assets/quality.png"
 import support from "../assets/support.png"
 const Bestoption: React.FC = () => {
     return (
-        <div className='max-w-[1240px] lg:px-0 px-4 md:scale-100 scale-90 mx-auto lg:mt-0 md:mt-20'>
+        <div className='max-w-[1240px] lg:px-0 px-4 md:scale-100 scale-90 mx-auto lg:mt-[37px] md:mt-20'>
             <div className='flex justify-center flex-col items-center '>
                 <h1 className='bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] bold md:text-[64px] md:w-[791px] flex justify-center items-center md:leading-[64px] text-center text-[28px] leading-[32px]'>WHY WE ARE THE BEST OPTION FOR YOU</h1>
                 <p className='regular mt-[16px] font-[600] text-[20px] text-[#D9D9D9] leading-[25.6px]'>There are numbers of video editing agencies out there but we stand out for a reason. </p>

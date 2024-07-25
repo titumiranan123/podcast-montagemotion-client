@@ -4,9 +4,9 @@ const Pricing: React.FC = () => {
     return (
         <div className='max-w-[1240px] mx-auto'>
             <div>
-                <h1 className='text-[56px] bold text-center'>Pricing Plans</h1>
+                <h1 className='text-[56px] bold text-center  text-white'>Pricing Plans</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 mt-[80px] lg:grid-cols-3 gap-5'>
                 <div className='hover:bg-[#25AAE1] bg-[#0E141E] md:w-[386px] w-[98%] group h-[714px] transition-colors duration-200 ps-[36px] rounded-[24px]'>
                     <div className='  flex justify-center items-center'>
                         <p className='bg-[#25AAE1] hover: w-[162px] h-[48px] flex justify-center items-center rounded-br-[8px] rounded-bl-[8px] group-hover:bg-[#0E141E] text-white normal text-[20px]'>Basic</p>

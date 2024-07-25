@@ -76,7 +76,9 @@
 
 
 /* Adjust for tablets */
-
+button {
+  cursor: pointer !important;
+}
 
 /* Adjust for mobile devices */
 @media (max-width: 640px) {
@@ -106,14 +108,14 @@
 }
 
 .swiper-button-prev-custom {
-  left: 440px;
+  left: 425px;
 
   rotate: 90deg;
   /* Position the previous button */
 }
 
 .swiper-button-next-custom {
-  right: -85px;
+  right: -68px;
   /* Position the next button */
   rotate: 90deg;
 }

@@ -3,7 +3,7 @@ import AccordianCard from "./AccordianCard";
 
 const Accordion = () => {
     return (
-        <div className="text-[#E4E8F7] lg:mt-0 lg:px-0 px-4 mt-[68px] md:mt-[80px] lg:mb-56 max-w-[1240px] mx-auto">
+        <div className="text-[#E4E8F7] lg:mt-0 lg:px-0 px-4 mt-[68px] md:mt-[80px]  max-w-[1240px] mx-auto">
             <div className="lg:w-1/2 mx-auto mb-[84px]">
                 <p className="md:text-[48px] uppercase text-[24px] boldText font-bold md:leading-[56px] tracking-[0.8px] semibold text-center">
                     Frequently Asked Questions (FAQ)

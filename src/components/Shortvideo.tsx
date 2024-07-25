@@ -41,10 +41,10 @@ const Shortvideo: React.FC = () => {
                         <SwiperSlide>
                             <div className="slide-content"><img src={img} alt="Slide 3" /></div>  </SwiperSlide>
                     </SwiperComponent>
-                    <div className="swiper-button-prev-custom absolute top-[45%] left-0 transform -translate-y-1/2 z-10">
+                    <div className="swiper-button-prev-custom absolute top-[45%] left-0 transform  -translate-y-1/2 z-10">
                         <FaArrowLeft />
                     </div>
-                    <div className="swiper-button-next-custom absolute top-[55%] right-0 transform -translate-y-1/2 z-10">
+                    <div className="swiper-button-next-custom absolute top-[55%] -right-2 transform -translate-y-1/2 z-10">
                         <FaArrowRight />
                     </div>
                 </div>

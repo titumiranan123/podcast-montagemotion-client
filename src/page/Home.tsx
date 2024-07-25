@@ -15,11 +15,11 @@ const Home: React.FC = () => {
             <span className='max-w-[1440px] mx-auto h-[1px] bg-white mt-[135px]'></span>
             <Shortvideo />
             <State />
-            {/* <Bestoption />
+            <Bestoption />
             <Successstroy />
             <Accordion />
             <Pricing />
-            <Footer /> */}
+            <Footer />
         </div>
     );
 };

@@ -29,39 +29,38 @@ const Header: React.FC = () => {
                             <button className='py-4 px-6 border  rounded-[16px] flex justify-center items-center opensans font-[700] text-[12px] text-white md:text-[20px]'>See Our Works</button>
                         </div>
                     </div>
-                    {/* <div className='bg-[#82C8E5] lg:w-[325px] md:w-[220px] h-[780px] -z-10 absolute -top-40 lg:left-[38%] md:left-[32%] filter blur-[95px] bg-opacity-75 '  >
-                    </div> */}
+
 
 
                 </div>
                 <div className='md:mt-[102px] mt-[80px] '>
-                    <div className=" rounded-xl overflow-hidden   lg:scale-100 scale-95   z-40   lg:w-[993px] lg:h-[562px]    md:h-[400px] w-full mx-auto h-[210px] relative ">
+                    <div className=" rounded-xl overflow-hidden   lg:scale-100 scale-95   z-40 bg-black lg:w-[993px] lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px] mx-auto  relative ">
                         {isImageVisible && (
                             <>
                                 <img src={img} className="lg:w-[993px] lg:h-[562px]" />
                                 <div className="absolute  lg:top-[38%] md:top-[30%] top-[20%] md:h-[80px] md:w-[80px] h-[40px] w-[40px] img-fluid md:left-[39%] lg:left-[44%] left-[30%]">
                                     <Headerpulse
-                                        link={'https://youtu.be/isR_XyP9Mfw?si=vw048NX1Cs5xS5Qo'}
+                                        link={'https://player.vimeo.com/video/963107880?title=0&byline=0&portrait=0&playsinline=0&autopause=0&app_id=122963'}
                                         onHideImage={handleHideImage}
                                     />
                                 </div>
                             </>
                         )}
 
-                        <div className=" lg:w-[993px] lg:h-[562px] md:w-[720px] md:h-[400px]  rounded-xl bg-black  h-[205px] mx-auto overflow-hidden ">
-                            {!isImageVisible && (
-                                <div className=" lg:w-[1220px] lg:h-[690px] md:w-[720px] md:h-[400px] w-[320px] h-[205px] flex justify-center items-center mx-auto  ">
-                                    <ReactPlayer
-                                        url={"https://youtu.be/isR_XyP9Mfw?si=vw048NX1Cs5xS5Qo"}
-                                        playing
-                                        height={"100%"}
-                                        width={"100%"}
-                                        controls
-                                        className=" lg:w-[1220px] lg:h-[690px] md:w-[720px] md:h-[400px] w-[350px] h-[200px]"
-                                    />
-                                </div>
-                            )}
-                        </div>
+
+                        {!isImageVisible && (
+                            <div className=" lg:w-[993px] lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px] flex justify-center items-center mx-auto  ">
+                                <ReactPlayer
+                                    url={"https://player.vimeo.com/video/963107880?title=0&byline=0&portrait=0&playsinline=0&autoplay=1&autopause=0&app_id=122963"}
+                                    playing
+                                    height={"100%"}
+                                    width={"100%"}
+                                    controls
+                                    className=" lg:w-[993px] lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px]"
+                                />
+                            </div>
+                        )}
+
                     </div>
                 </div>
             </div>

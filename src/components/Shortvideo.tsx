@@ -11,7 +11,7 @@ import img from '../assets/shorts.png';
 
 const Shortvideo: React.FC = () => {
     return (
-        <div className='flex lg:flex-nowrap flex-wrap justify-between max-w-[1240px] gap-[110px] overflow-hidden mx-auto px-4'>
+        <div className='flex lg:flex-nowrap flex-wrap justify-between max-w-[1240px] gap-[110px] overflow-hidden mx-auto px-4 lg:mt-0 md:mt-32 mt-16'>
             <div className=' lg:w-1/2 w-full flex justify-start flex-col'>
                 <h1 className='bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] poppins font-bold md:text-[64px]   text-left md:leading-[64px] leading-[32px] text-[30px] w-full  '>OUR RECENT PROJECT</h1>
                 <p className='opensans mt-[20px] md:mt-[34px] font-[600] md:text-[20px] text-[#D9D9D9] md:w-[505px] md:leading-[25.6px] leading-[16px] text-[14px]'>Montage motion is the reliable digital solutions provider to grow your business 3x faster. We provide services on Video Editing and special service on Podcast.</p>

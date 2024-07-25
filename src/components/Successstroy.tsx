@@ -2,7 +2,7 @@ import React from 'react';
 
 const Successstroy: React.FC = () => {
     return (
-        <div className='max-w-[1240px] lg:mt-0 md:mt-20 px-4 lg:px-0 mx-auto'>
+        <div className='max-w-[1240px] lg:mt-0 md:mt-32 px-4 lg:px-0 mx-auto'>
             <div className='flex justify-center flex-col items-center'>
                 <h1 className='bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] bold md:text-[64px] md:w-[511px] flex justify-center items-center md:leading-[64px] text-center text-[28px] leading-[32px]'>OUR SUCCESS  STORY</h1>
                 <p className='regular mt-[16px] font-[600] md:text-[20px] text-[14px] leading-[16px] text-[#D9D9D9] md:md:leading-[25.6px] '>There are numbers of video editing agencies out there but we stand out for a reason. </p>

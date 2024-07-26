@@ -8,7 +8,6 @@
     display: block;
     width: 32px;
     height: 44px;
-    /* background: #fa183d; */
     border-radius: 50%;
     padding: 18px 20px 18px 28px;
 }
@@ -32,12 +31,12 @@
     content: "";
     position: absolute;
     z-index: 1;
-    left: 50%;
+    left: 46%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background: #1fb5dd;
     border-radius: 50%;
     transition: all 200ms;
@@ -77,9 +76,9 @@
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 32px solid #fff;
-    border-top: 22px solid transparent;
-    border-bottom: 22px solid transparent;
+    border-left: 22px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
 }
 
 @keyframes pulse-border {
@@ -94,7 +93,7 @@
     }
 }
 
-.video-overlay {
+/* .video-overlay {
     position: fixed;
     z-index: -1;
     top: 0;
@@ -104,13 +103,13 @@
     background: rgba(0, 0, 0, 0.8);
     opacity: 0;
     transition: all ease 500ms;
-}
+} */
 
-.video-overlay.open {
+/* .video-overlay.open {
     position: fixed;
     z-index: 1000;
     opacity: 1;
-}
+} */
 
 .video-overlay-close {
     position: absolute;
@@ -143,10 +142,10 @@
 
 /* ENTRANCE ANIMATION OF THE PLAY BUTTON */
 
-.video_play_button {
+/* .video_play_button {
     -webkit-animation: scale-up-center 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
     animation: scale-up-center 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
-}
+} */
 
 /* .video_play_button {
   0% {
@@ -179,8 +178,8 @@
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
         display: block;
-        width: 50px;
-        height: 50px;
+        width: 10px;
+        height: 10px;
         background: #1fb5dd;
         border-radius: 50%;
         transition: all 200ms;
@@ -199,8 +198,8 @@
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
         display: block;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
         background: #1fb5dd;
         border-radius: 50%;
         animation: pulse-border 1500ms ease-out infinite;
@@ -212,8 +211,8 @@
         z-index: 3;
         top: 28px;
         left: 33px;
-        width: 0;
-        height: 0;
+        width: 10px !important;
+        height: 10px !important;
         border-left: 22px solid #fff;
         border-top: 12px solid transparent;
         border-bottom: 12px solid transparent;

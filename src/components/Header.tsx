@@ -19,7 +19,6 @@ const Header: React.FC = () => {
                 </div>
             </div>
             <div className=' mx-auto  max-w-[1240px] flex justify-center items-center flex-col z-20'>
-
                 <div className="relative mt-[120px] md:mt-[174px]">
                     <div className='flex justify-center flex-col items-center z-20'>
                         <h1 className='bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] poppins font-bold lg:text-[96px] md:text-[64px] text-[32px] leading-[35px]  flex justify-center items-center lg:leading-[96px] md:leading-[64px] text-center lg:w-[1153px] '>GET YOUR FIRST SHORTS VIDEO FREE</h1>
@@ -29,9 +28,6 @@ const Header: React.FC = () => {
                             <button className='py-4 px-6 border  rounded-[16px] flex justify-center items-center opensans font-[700] text-[12px] text-white md:text-[20px]'>See Our Works</button>
                         </div>
                     </div>
-
-
-
                 </div>
                 <div className='md:mt-[102px] mt-[80px] '>
                     <div className=" rounded-xl overflow-hidden   lg:scale-100 scale-95   z-40 bg-black lg:w-[993px] lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px] mx-auto  relative ">
@@ -40,7 +36,7 @@ const Header: React.FC = () => {
                                 <img src={img} className="lg:w-[993px] lg:h-[562px]" />
                                 <div className="absolute  lg:top-[38%] md:top-[30%] top-[20%] md:h-[80px] md:w-[80px] h-[40px] w-[40px] img-fluid md:left-[39%] lg:left-[44%] left-[30%]">
                                     <Headerpulse
-                                        link={'https://player.vimeo.com/video/963107880?title=0&byline=0&portrait=0&playsinline=0&autopause=0&app_id=122963'}
+
                                         onHideImage={handleHideImage}
                                     />
                                 </div>

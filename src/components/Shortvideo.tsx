@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import React, { useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -8,8 +9,14 @@ import { Swiper as SwiperComponent, SwiperSlide } from 'swiper/react';
 import { Navigation, Mousewheel } from 'swiper/modules';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; // Import icons
 import img from '../assets/shorts.png';
+import Headerpulse from './Headerpuls';
+import ReactPlayer from 'react-player';
 
 const Shortvideo: React.FC = () => {
+    const [isImageVisible, setIsImageVisible] = useState(false);
+    const handleHideImage = (hide: any) => {
+        setIsImageVisible(!hide);
+    };
     return (
         <div className='flex lg:flex-nowrap flex-wrap justify-between max-w-[1240px] gap-[110px] overflow-hidden mx-auto px-4 lg:mt-0 md:mt-32 mt-16'>
             <div className=' lg:w-1/2 w-full flex justify-start flex-col'>
@@ -32,14 +39,66 @@ const Shortvideo: React.FC = () => {
                         modules={[Navigation, Mousewheel]}
                         style={{ width: '487px', height: '680.23px' }}
                     >
+
+
                         <SwiperSlide>
-                            <img className='w-[387px]' src={img} alt="Slide 1" />
+                            <div className="slide-content">
+                                {
+                                    !isImageVisible && <>
+
+                                        <img src={img} alt="Slide 3" />
+                                        <div className="absolute  lg:top-[48.5%] md:top-[30%] top-[20%] md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] left-[30%]">
+                                            <Headerpulse
+
+                                                onHideImage={handleHideImage}
+                                            />
+                                        </div></>
+                                }
+                                {
+                                    isImageVisible && <>
+
+
+                                        <div className="">
+                                            <ReactPlayer
+                                                url={"https://youtube.com/shorts/KJJAohNO4-w?si=jXjxVTMZWf7w9zWP"}
+                                                playing
+                                                height={"100%"}
+                                                width={"100%"}
+                                                controls
+                                            />
+                                        </div></>
+                                }
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="slide-content"><img src={img} alt="Slide 2" /></div>
+                            <div className="slide-content">
+                                {
+                                    !isImageVisible && <>
+
+                                        <img src={img} alt="Slide 3" />
+                                        <div className="absolute  lg:top-[48.5%] md:top-[30%] top-[20%] md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] left-[30%]">
+                                            <Headerpulse
+
+                                                onHideImage={handleHideImage}
+                                            />
+                                        </div></>
+                                }
+                                {
+                                    isImageVisible && <>
+
+
+                                        <div className="">
+                                            <ReactPlayer
+                                                url={"https://youtube.com/shorts/KJJAohNO4-w?si=jXjxVTMZWf7w9zWP"}
+                                                playing
+                                                height={"100%"}
+                                                width={"100%"}
+                                                controls
+                                            />
+                                        </div></>
+                                }
+                            </div>
                         </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="slide-content"><img src={img} alt="Slide 3" /></div>  </SwiperSlide>
                     </SwiperComponent>
                     <div className="swiper-button-prev-custom absolute top-[45%] left-0 transform  -translate-y-1/2 z-10">
                         <FaArrowLeft />

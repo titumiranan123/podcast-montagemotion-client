@@ -47,7 +47,7 @@ const Shortvideo: React.FC = () => {
                                     !isImageVisible && <>
 
                                         <img src={img} alt="Slide 3" />
-                                        <div className="absolute  lg:top-[48.5%] md:top-[30%] top-[20%] md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] left-[30%]">
+                                        <div className="absolute  lg:top-[48.5%] md:top-[30%]  md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] top-[47.2%] left-[46.2%]">
                                             <Headerpulse
 
                                                 onHideImage={handleHideImage}
@@ -76,7 +76,7 @@ const Shortvideo: React.FC = () => {
                                     !isImageVisible && <>
 
                                         <img src={img} alt="Slide 3" />
-                                        <div className="absolute  lg:top-[48.5%] md:top-[30%] top-[20%] md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] left-[30%]">
+                                        <div className="absolute  lg:top-[48.5%] md:top-[30%]  md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] top-[47.2%] left-[46.2%]">
                                             <Headerpulse
 
                                                 onHideImage={handleHideImage}

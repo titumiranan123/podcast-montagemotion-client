@@ -178,8 +178,8 @@
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
         display: block;
-        width: 10px;
-        height: 10px;
+        width: 45px;
+        height: 45px;
         background: #1fb5dd;
         border-radius: 50%;
         transition: all 200ms;
@@ -198,8 +198,8 @@
         top: 50%;
         transform: translateX(-50%) translateY(-50%);
         display: block;
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
         background: #1fb5dd;
         border-radius: 50%;
         animation: pulse-border 1500ms ease-out infinite;

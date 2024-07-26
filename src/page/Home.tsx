@@ -12,7 +12,7 @@ const Home: React.FC = () => {
     return (
         <div className='flex  flex-col lg:gap-[120px]   gap-[0px]'>
             <Header />
-            <span className='md:w-[1440px] w-full opacity-20 mx-auto h-[1px] bg-[#effe] mt-[120px]'></span>
+            <span className='lg:w-[1440px] w-full opacity-20 mx-auto h-[1px] bg-[#effe] mt-[120px]'></span>
             <Shortvideo />
             <State />
             <Bestoption />

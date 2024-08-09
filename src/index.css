@@ -109,7 +109,6 @@ button {
 
 .swiper-button-prev-custom {
   left: 425px;
-
   rotate: 90deg;
   /* Position the previous button */
 }
@@ -118,4 +117,21 @@ button {
   right: -68px;
   /* Position the next button */
   rotate: 90deg;
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 640px) {
+  .swiper-button-prev-custom {
+    left: 256px;
+    /* Adjust the position for mobile screens */
+    font-size: 18px;
+    /* Slightly smaller icon size */
+  }
+
+  .swiper-button-next-custom {
+    right: 0px;
+    /* Adjust the position for mobile screens */
+    font-size: 18px;
+    /* Slightly smaller icon size */
+  }
 }

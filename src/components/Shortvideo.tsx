@@ -46,7 +46,7 @@ const Shortvideo: React.FC = () => {
                         pagination={{ clickable: true }}
                         mousewheel={{ forceToAxis: true }}
                         modules={[Navigation, Mousewheel]}
-                        style={{ width: '487px', height: '680.23px' }}
+                        style={{ width: '487px', height: '6700.23px' }}
                         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
                     >
                         <SwiperSlide>
@@ -54,7 +54,7 @@ const Shortvideo: React.FC = () => {
                                 {
                                     !isImageVisible &&
                                     <div onClick={() => setIsImageVisible(!isImageVisible)}>
-                                        <img className='md:w-[387px] md:h-[680.23px] h-[594px]' src={img} alt="Slide 1" />
+                                        <img className='md:w-[387px] md:h-[680.23px] h-[684px]' src={img} alt="Slide 1" />
                                         <div className="absolute lg:top-[48.5%] md:top-[30%] md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] top-[47.2%] left-[46.2%]">
                                             <Headerpulse onHideImage={handleHideImage} />
                                         </div>
@@ -62,7 +62,7 @@ const Shortvideo: React.FC = () => {
                                 }
                                 {
                                     isImageVisible &&
-                                    <div className="md:w-[387px] md:h-[680.23px] h-[594px]">
+                                    <div className="md:w-[387px] md:h-[680.23px] h-[684px]">
                                         <ReactPlayer
                                             url={"https://youtube.com/shorts/KJJAohNO4-w?si=jXjxVTMZWf7w9zWP"}
                                             playing={activeIndex === 0}

@@ -14,7 +14,7 @@ const AccordionCard: FC<AccordionCardProps> = ({ title, description }) => {
 
     return (
         <div
-            className={`lg:w-[692px] ${isVisible ? "lg:h-auto h-auto" : "lg:h-[80px] h-[98px]"} 
+            className={`lg:w-[692px] ${isVisible ? "lg:h-auto h-auto" : "lg:h-[70px] h-[98px]"} 
       mt-4 relative transition-all duration-300 ease-in-out`}
         >
             <div
@@ -23,17 +23,17 @@ const AccordionCard: FC<AccordionCardProps> = ({ title, description }) => {
             >
                 <button
                     onClick={toggleAccordion}
-                    className="flex justify-between w-full items-center"
+                    className="flex justify-between w-full "
                 >
                     <span className="tracking-[1.5px] semibold md:w-[564px] md:text-[24px] text-left leading-[26px] text-[16px]">
                         {title}
                     </span>
-                    <div className="w-10">
+                    <div className="w-10 relative">
                         <FaPlus
                             className={`w-6 h-6 transform transition-transform duration-300 ${isVisible ? "rotate-180 opacity-0" : "rotate-0 opacity-100"}`}
                         />
                         <FaMinus
-                            className={`w-6 h-6 absolute transform transition-transform duration-300 ${isVisible ? "rotate-0 opacity-100" : "rotate-180 opacity-0"}`}
+                            className={`w-6 h-6 top-0 absolute transform transition-transform duration-300 ${isVisible ? "rotate-0 opacity-100" : "rotate-180 opacity-0"}`}
                         />
                     </div>
                 </button>

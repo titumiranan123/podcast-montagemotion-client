@@ -22,24 +22,36 @@ const Accordion = () => {
                 </div>
                 <div className="flex justify-center lg:items-center flex-col lg:-mt-8 mt-6 md:gap-0 gap-4">
                     <AccordianCard
-                        title="Q: What kind of software will you use to create this video?"
-                        description="A: I use Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop, Adobe Illustrator, and Adobe Audition. I also use other software as needed for the video."
+                        title="Q: Can you edit long videos into shorts or reels?"
+                        description="A: Yes, I do! I'm an expert in all kinds of video editing services, including podcasts, talking heads, promos, cinematic videos, music videos, slideshows, and more."
                     />
                     <AccordianCard
-                        title="Q: How do I provide you with my files?"
-                        description="A: After completing the order, you can give me pictures and videos via a download link or file attachment. Don’t worry, I’ll guide you on how to do it easily."
+                        title="Q: How can I send you my videos?"
+                        description="A: If your video is under 500 MB, you can attach it directly to your Fiverr message. For larger files, please use Google Drive, Dropbox, or WeTransfer, and share the download link with me in the chat."
                     />
                     <AccordianCard
-                        title="Q: Will you do subtitles?"
-                        description="A: For subtitles, you need to provide a transcript and pay an extra $10 per 10 minutes of the final video."
+                        title="Q: Do you offer discounts for long-term collaborations or partnerships?"
+                        description="A: Yes, I do! I am particularly interested in building long-term relationships with clients."
                     />
                     <AccordianCard
-                        title="Q: What kind of videos can you edit?"
-                        description="A: Professional slideshow promo videos, commercial videos, noise removal, travel vlogs, podcasts, lyrical music videos, dynamic intros & outros, creative logo animation, character animation, ads & social media content, brand promotions, green screen removal, subtitles & captions, book trailers, visual effects, and 3D product videos."
+                        title="Q: Is client satisfaction guaranteed with your service?"
+                        description="A: Absolutely! I guarantee satisfaction and ensure you’ll love the final result."
                     />
                     <AccordianCard
-                        title="Q: What kind of work do you do?"
-                        description="A: Podcast video editing, Zoom video editing, interview video editing, personal videos, webinar videos, and remote podcasts."
+                        title="Q: Do you edit thumbnails for YouTube Shorts too?"
+                        description="A: Yes, I do. This service is available for an additional $10."
+                    />
+                    <AccordianCard
+                        title="Q: Are you available for long-term projects?"
+                        description="A: Yes! As a professional editor, I am dedicated to delivering high-quality work and fostering long-lasting client relationships. I am flexible and ready to meet your specific needs and deadlines ."
+                    />
+                    <AccordianCard
+                        title="Q: What will you do in my shorts?"
+                        description="A: I'll add engaging captions, emojis, GIFs, dynamic transitions, sound effects, motion graphics, trending background music, precise cuts, and eye-catching overlays to keep your audience hooked!"
+                    />
+                    <AccordianCard
+                        title="Q: Is price negotiable?"
+                        description="A: Yes, it is! Just DM me to discuss."
                     />
                 </div>
             </div>

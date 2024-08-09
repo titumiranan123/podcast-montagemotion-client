@@ -47,7 +47,7 @@ const Header: React.FC = () => {
                         {!isImageVisible && (
                             <div className=" lg:w-[993px] lg:h-[562px] md:w-[720px] md:h-[400px] w-full h-[200px] flex justify-center items-center mx-auto  ">
                                 <ReactPlayer
-                                    url={"https://player.vimeo.com/video/963107880?title=0&byline=0&portrait=0&playsinline=0&autoplay=1&autopause=0&app_id=122963"}
+                                    url={"https://youtu.be/v96qf1qJLPU?si=X_yXtN9ubgQzAIwH"}
                                     playing
                                     height={"100%"}
                                     width={"100%"}

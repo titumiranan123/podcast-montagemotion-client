@@ -14,8 +14,10 @@ import ReactPlayer from 'react-player';
 
 const Shortvideo: React.FC = () => {
     const [isImageVisible, setIsImageVisible] = useState(false);
-    const handleHideImage = (hide: any) => {
+    const handleHideImage = (hide: boolean) => {
+
         setIsImageVisible(!hide);
+        console.log(isImageVisible)
     };
     return (
         <div className='flex lg:flex-nowrap flex-wrap justify-between max-w-[1240px] gap-[110px] overflow-hidden mx-auto px-4 lg:mt-0 md:mt-32 mt-16'>
@@ -44,21 +46,21 @@ const Shortvideo: React.FC = () => {
                         <SwiperSlide>
                             <div className="slide-content">
                                 {
-                                    !isImageVisible && <>
+                                    !isImageVisible && <div onClick={() => setIsImageVisible(!isImageVisible)}>
 
-                                        <img src={img} alt="Slide 3" />
+                                        <img className='w-[387px] h-[680.23px]' src={img} alt="Slide 3" />
                                         <div className="absolute  lg:top-[48.5%] md:top-[30%]  md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] top-[47.2%] left-[46.2%]">
                                             <Headerpulse
 
                                                 onHideImage={handleHideImage}
                                             />
-                                        </div></>
+                                        </div></div>
                                 }
                                 {
                                     isImageVisible && <>
 
 
-                                        <div className="">
+                                        <div className="w-[387px] h-[680.23px]">
                                             <ReactPlayer
                                                 url={"https://youtube.com/shorts/KJJAohNO4-w?si=jXjxVTMZWf7w9zWP"}
                                                 playing
@@ -73,21 +75,21 @@ const Shortvideo: React.FC = () => {
                         <SwiperSlide>
                             <div className="slide-content">
                                 {
-                                    !isImageVisible && <>
+                                    !isImageVisible && <div onClick={() => setIsImageVisible(!isImageVisible)}>
 
-                                        <img src={img} alt="Slide 3" />
+                                        <img className='w-[387px] h-[680.23px]' src={img} alt="Slide 3" />
                                         <div className="absolute  lg:top-[48.5%] md:top-[30%]  md:h-[20px] md:w-[20px] h-[20px] w-[20px] img-fluid md:left-[39%] lg:left-[38.4%] top-[47.2%] left-[46.2%]">
                                             <Headerpulse
 
                                                 onHideImage={handleHideImage}
                                             />
-                                        </div></>
+                                        </div></div>
                                 }
                                 {
                                     isImageVisible && <>
 
 
-                                        <div className="">
+                                        <div className="w-[387px] h-[680.23px]">
                                             <ReactPlayer
                                                 url={"https://youtube.com/shorts/KJJAohNO4-w?si=jXjxVTMZWf7w9zWP"}
                                                 playing
